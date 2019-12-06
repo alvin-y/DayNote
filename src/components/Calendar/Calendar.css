@@ -1,0 +1,58 @@
+.monthContainer {
+    margin: auto;
+    flex-wrap: nowrap;
+    align-content: center;
+    max-width: 630px;
+    text-align: center;
+}
+
+.monthLabel {
+    display: flex;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.dayLabelContainer {
+    display: flex;
+}
+
+.dayLabel {
+    display: block;
+    flex: 1 0 0%;
+    padding: 0.8rem;
+    background: transparent;
+    font-size: 1.2rem;
+    color: purple;
+}
+
+.week{
+    display:flex;   
+}
+
+.dateButton {
+    display: block;
+    flex: 1 0 0%;
+    width: 90px;
+    margin: 0;
+    padding: 0.8rem;
+    background: transparent;
+    font-size: 1.2rem;
+}
+
+.dateButton:hover {
+    background-color: lightgray;
+}
+
+.disableButton {
+    display: block;
+    flex: 1 0 0%;
+    width: 90px;
+    margin: 0;
+    padding: 0.8rem;
+    background: transparent;
+    font-size: 1.2rem;
+}

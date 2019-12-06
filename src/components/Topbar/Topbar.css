@@ -1,0 +1,62 @@
+.topbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: lightblue;
+    height: 56px;
+}
+
+.topbar-nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+.topbar-logo {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.spacer{
+    flex: 1;
+}
+
+.topbar-items ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.topbar-items li{
+    padding: 0 0.5rem;
+}
+
+.topbar-items a{
+    color: white;
+    text-decoration: none;
+}
+
+.topbar-items a:hover, .topbar-items a:active {
+    color: orange;
+}
+
+@media (max-width: 768px){
+    .topbar-items{
+        display: none;
+    }
+}
+
+@media(min-width: 769px){
+    .topbar-toggle-button {
+        display: none;
+    }
+
+    .topbar-logo {
+        margin-left: 0;
+    }
+}
