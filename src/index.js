@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import './index.css';
 
 import Topbar from './components/Topbar/Topbar';
@@ -11,7 +12,6 @@ import Calendar from './components/Calendar/Calendar';
 class Main extends React.Component{
 	state = {
 		sideHidden: false
-
 	};
 
 	sidebarToggle = () => {
@@ -88,7 +88,7 @@ class HideButton extends React.Component{
 	}
 }
 
-//ReactDOM.render(<HideButton />, document.getElementById('button'));
+ReactDOM.render(<HideButton />, document.getElementById('button'));
 
 class Table extends React.Component{
 	constructor(props){
@@ -155,4 +155,4 @@ class Table extends React.Component{
 	}
 }
 
-//ReactDOM.render(<Table />, document.getElementById('table'));
+ReactDOM.render(<Table />, document.getElementById('table'));
